@@ -22,8 +22,8 @@ global mail_msg
 
 def start():
     openBrowser()
-    login("kayqueprado2015@gmail.com", "Kayqueprado@2018")
-    enviar_email("kayqueprado2015@gmail.com", "teste", "Ola esse e um email teste")
+    login("", "")
+    enviar_email("", "teste", "Ola esse e um email teste")
     sleep(30)
     kill()
 
